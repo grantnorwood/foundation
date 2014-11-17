@@ -113,6 +113,9 @@
           .css('height', '');
       }
 
+	    /*
+	    //DISABLED: Breaks things.
+
       if (settings.scrolltop) {
         if (!topbar.hasClass('expanded')) {
           if (topbar.hasClass('fixed')) {
@@ -147,7 +150,7 @@
             self.S('body').addClass('f-topbar-fixed');
           }
         }
-      }
+      }*/
     },
 
     timer : null,
